@@ -3,10 +3,17 @@
 	font-family: Verdana, Arial, Serif;
 	}
 
-h1 
+h1
 	{
-	font-family: Arial, Serif;
+	font-family: Arial, sans-serif;
 	text-align: center;
 	}
 
+.blurb
+	{
+		font-family: Arial, sans-serif;
+		width: 80%;
+		border: 2px dotted black;
+		font-size: 26px;
 
+	}
