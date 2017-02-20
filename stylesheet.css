@@ -12,10 +12,10 @@ h1
 .blurb
 	{
 		font-family: Arial, sans-serif;
-		width: 80%;
+		width: 100%;
 		border: 2px bold black;
 		font-size: 26px;
 		padding: 5px;
-		margin: [5px][40px];
+		text-align: center;
 
 	}
