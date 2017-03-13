@@ -25,5 +25,14 @@
 				$(this).attr('src', './Pictures/aisha-pic1.jpg');
 			});
 
+			
+
+			$('#alice-pic').mouseover(function() {
+				$(this).attr('src', './Pictures/alice-pic2.jpg');
+			});
+
+			$("#alice-pic").mouseout(function(){
+				$(this).attr('src', './Pictures/alice-pic1.jpg');
+			});
 
 });
