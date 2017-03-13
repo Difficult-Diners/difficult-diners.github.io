@@ -1,5 +1,6 @@
 body{
 	background-color: #D3D3D3;
+	margin: 10px;
 }
 
 * {
@@ -108,7 +109,7 @@ h2{
     text-align: left;
 }
 
-.navbar .dropdown-content a:hover 
+.navbar .dropdown-content a:hover
 {background-color: #f1f1f1}
 
 .navbar .dropdown:hover .dropdown-content {
