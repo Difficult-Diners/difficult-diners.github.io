@@ -1,7 +1,16 @@
+body{
+	background-color: #D3D3D3;
+}
 
 * {
 	font-family: Verdana, Arial, Serif;
 	}
+
+.we{
+	text-align: center;
+	color: #808080;
+	width: 60%;
+}
 
 h1
 	{
@@ -13,17 +22,63 @@ h2{
 	text-align: center;
 }
 
+.about-pic{
+	height: 300px;
+	width: 75%;
+	margin: 40px;
+}
+
 .blurb
 	{
 		font-family: Arial, sans-serif;
 		width: 100%;
 		border: 2px bold black;
-		font-size: 26px;
+		font-size: 36px;
 		padding: 5px;
-		text-align: center;
 	}
 
+.boxed{
+	background-color: #94cfcd;
+	padding: 10px;
+	color: #808080;
+	font-size: 26px;
+	text-align: center;
+	margin: 0px;
+	vertical-align: center;
+}
+
+.mission{
+	width: 60%;
+}
+
+.row{
+	margin: 10px;
+}
 .contact-us
 {
 	margin-left: 10px;
+}
+
+.social-buttons{
+}
+
+.btn-facebook{
+	background-color: #3b5998;
+	color: white;
+}
+
+.btn-twitter{
+	background-color: #4099ff;
+}
+
+.btn-pinterest{
+	background-color: #c8232c;
+	color: white;
+}
+
+.follow-us{
+	colour: #808080;
+	font-size: 26px;
+	text-align: center;
+
 }

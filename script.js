@@ -16,11 +16,12 @@
 			}
 			})
 
-			var img = $(".aisha-pic");
+			var button = $(".aisha-pic");
 
-			img.on('hover', function(){
-				src=
-			})
+			button.on('hover', function(){
+				src='./Pictures/aisha-pic2.jpg';
+			}
+		})
 
 
 		)}
