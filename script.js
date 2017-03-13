@@ -14,15 +14,16 @@
 			else {
 				button.html("Tried this?");
 			}
-			})
-
-			var button = $(".aisha-pic");
-
-			button.on('hover', function(){
-				src='./Pictures/aisha-pic2.jpg';
-			}
-		})
+		});
 
 
-		)}
-	})
+			$('#aisha-pic').mouseover(function() {
+				$(this).attr('src', './Pictures/aisha-pic2.jpg');
+			});
+
+			$("#aisha-pic").mouseout(function(){
+				$(this).attr('src', './Pictures/aisha-pic1.jpg');
+			});
+
+
+});
