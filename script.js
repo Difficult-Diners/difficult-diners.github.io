@@ -5,16 +5,13 @@
 
 		 var button = $(".cookedbutton");
 
+		 button.on('click', function(){
 
-		button.on('click', function(){
-
-			if (button.text() == "Tried this?")
-			{
+			if (button.text() == "Tried this?") {
 				button.html("Cooked!");
 				alert("Well Done!");
 			}
-			else
-			{
+			else {
 				button.html("Tried this?");
 			}
 		})
