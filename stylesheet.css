@@ -115,7 +115,7 @@ h2{
 .navbar .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
-
+}
 
 .boxed{
 	background-color: #94cfcd;
@@ -124,7 +124,6 @@ h2{
 	font-size: 26px;
 	text-align: center;
 	margin: 0px;
-	vertical-align: center;
 }
 
 .mission{
