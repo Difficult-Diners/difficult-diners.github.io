@@ -133,18 +133,16 @@ h2{
 .row{
 	margin: 10px;
 }
->>>>>>> origin/master
+
 .contact-us
 {
 	margin-left: 10px;
 }
 
-.social-buttons{
-}
-
 .btn-facebook{
 	background-color: #3b5998;
 	color: white;
+	border-radius: 20%
 }
 
 .btn-twitter{
@@ -155,11 +153,11 @@ h2{
 .btn-pinterest{
 	background-color: #c8232c;
 	color: white;
+	border-radius: 20%
 }
 
 .follow-us{
 	colour: #808080;
 	font-size: 26px;
 	text-align: center;
-
 }
