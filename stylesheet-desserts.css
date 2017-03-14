@@ -42,3 +42,17 @@
     text-align: center;
     margin: 0px;
   }
+
+  .about-tiramisu{
+    height: 100%;
+    width: 100%;
+    margin: 0px
+  }
+
+.ingredients{
+  text-align: left;
+}
+
+.recipe{
+  text-align: left;
+}
