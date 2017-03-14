@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-   var button = $(".cookedbutton");
+   var button = $("cookedbutton");
 
    button.on('click', function(){
 
@@ -14,3 +14,5 @@ $(document).ready(function(){
       button.html("Tried this?");
     }
   });
+
+});
