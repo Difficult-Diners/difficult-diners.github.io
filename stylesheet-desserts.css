@@ -1,0 +1,44 @@
+  body{
+  	background-color: #D3D3D3;
+  	margin: 10px;
+  	font-size: 20px;
+  	text-align: center;
+  	cursor: url(./pictures/pizza.png), auto;
+  }
+
+  * {
+	font-family: Verdana, Arial, Serif;
+	}
+
+  h1
+  	{
+  	font-family: Arial, sans-serif;
+  	text-align: center;
+  	}
+
+  h2{
+  	text-align: center;
+  }
+
+  .about-pic{
+  	height: 100%;
+  	width: 75%;
+  	margin: 40px;
+  }
+
+  .blurb{
+  	font-family: Arial, sans-serif;
+  	width: 100%;
+  	border: 2px bold black;
+  	font-size: 36px;
+  	padding: 5px;
+  }
+
+  .boxed{
+    background-color: #94cfcd;
+    padding: 10px;
+    color: #808080;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+  }
