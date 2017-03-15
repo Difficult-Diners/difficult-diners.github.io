@@ -51,3 +51,6 @@ function scrollFunction(){
  	document.body.scrollTop = 0;
  	document.documentElement.scrollTop = 0;
 }
+
+var audio = document.getElementbyTagName("audio")[0];
+audio.play();
