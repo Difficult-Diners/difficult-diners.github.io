@@ -34,14 +34,14 @@ h2{
 	z-index: 99;
 	border: none;
 	outline: none;
-	background-color: red;
-	color: black;
+	background-color: darkseagreen;
+	color: darkslategrey;
 	padding: 15px;
 	border-radius: 10px;
 }
 
 #myBtn:hover {
-	background-color: #555;
+	background-color: lavender;
 }
 
 .about-pic{
