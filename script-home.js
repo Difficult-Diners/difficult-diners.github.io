@@ -16,6 +16,18 @@
 			}
 		});
 
+var audio=$("audiofunction");
+	function play() {
+		audio.play();
+	}
+	function pause() {
+		audio.pause();
+	}
+
+var pausebutton = $("pausebutton");
+	pausebutton.on("click", function(){
+		pause();
+	})
 
 			$('#aisha-pic').mouseover(function() {
 				$(this).attr('src', './Pictures/aisha-pic2.jpg');
@@ -44,7 +56,7 @@ function scrollFunction(){
 		document.documentElement.scrollTop > 20) {
 		document.getElementById("myBtn").style.display = "block";
 } else {
-	document.getElemntById("myBtn").style.display = "none";
+	document.getElementById("myBtn").style.display = "none";
 	}
 }
  function topFunction(){
@@ -52,5 +64,5 @@ function scrollFunction(){
  	document.documentElement.scrollTop = 0;
 }
 
-var audio = document.getElementbyTagName("audio")[0];
-audio.play();
+
+
