@@ -19,18 +19,6 @@ $(document).ready(function(){
   	}
 		});
 
-var audio=$("audiofunction");
-	function play() {
-		audio.play();
-	}
-	function pause() {
-		audio.pause();
-	}
-
-var pausebutton = $("pausebutton");
-	pausebutton.on("click", function(){
-		pause();
-	})
 
 			$('#aisha-pic').mouseover(function() {
 				$(this).attr('src', './Pictures/aisha-pic2.jpg');
