@@ -40,7 +40,7 @@ $(document).ready(function(){
 				$(this).attr('src', './Pictures/rebecca-pic2.jpg');
 			});
 
-			$("#alice-pic").mouseout(function(){
+			$("#rebecca-pic").mouseout(function(){
 				$(this).attr('src', './Pictures/rebecca-pic1.jpg');
 			});
 
