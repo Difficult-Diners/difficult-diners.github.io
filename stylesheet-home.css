@@ -45,6 +45,19 @@ h2{
 	background-color: thistle;
 }
 
+#pausebutton {
+	position: relative;
+	left: 500px;
+	bottom: 10px;
+    right: 10px;
+	border: none;
+	background color: darkseagreen;
+	color: darkslategrey;
+	padding: 10px;
+	font-family: verdana;
+	font-size: 10px;
+}
+
 .about-pic{
 	height: 100%;
 	width: 75%;
