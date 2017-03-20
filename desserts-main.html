@@ -3,41 +3,309 @@
 <hmtl>
 
 <head>
-	<title> Desserts </title>
+
+	<title>Desserts</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+
+	<meta name="description" content="my list of languages and frameworks" />
+
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"> </script>
+
+	<script src="./script-home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./stylesheet-home.css">
+
 </head>
 
 <body>
 
-<h1> Desserts </h1>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<p> 1 block = blurb of italian desserts </p>
+	<div class="navbar">
+		<ul>
+			<li><a href="./index.html">HOME</a></li>
+			<li class="float-right"><a href="./desserts-main.html">DESSERTS</a></li>
+			<li class="float-right"><a href="./main_courses.html">MAINS</a></li>
+			<li class="float-right"><a href="./starters.html">STARTERS</a></li>
+		</ul>
+	</div>
 
-<p> 3 blocks = 3 photos </p>
+	<div class='row'>
+		<div class='col-md-12'>
+			<h1>Difficult Diners Dessert</h1>
+		</div>
+	</div>
 
-<p> 1 block = MAIN COURSES </p>
+	<div class="blurb, boxed">
+		<p> This Month is Italian Month, and we have chosen the ever popular and fabulous tiramisu as our dessert. The perfect show stopper and end to a dinner party to wow your guests. Tiramisu is vegetarian, we have also a vegan - dairy free opotion, gluten free and refined sugar free options for you to try.</p>
+	</div>
 
-<p> 3 blocks =  links to further down page to 3 diff alternatives for desserts: normal, gluten free, vegetarian </p>
+	<div id="mission">
+	<div class='row'>
+		<div class='col-md-12'>
+			<h1><b>Tiramisu</b></h1>
+			<h2><small>There are many different stories about the origin of Tiramisu'. It is a layered cake, so some people place its origin in Tuscany, where another famous layered Italian dessert is very popular. It is called “Zuppa Inglese” (English Soup).It can come in many forms from glass, to slice to whole tray bake! These recipes are easily adaptable to whichever style you prefer.</small></h2>
+		</div>
+	</div>
+	</div>
+<br>
+	<div class='row'>
 
-<p> 1 block = thin block colour or 'more options' </p>
+		<div class='col-md-4'>
+			<div>
+				<img class='about-tiramisu' src='./Pictures/tiramisu1.jpg'>
+			</div>
+		</div>
 
-<p> <em> 3 blocks =  links to further down page to 3 other alternatives:
-dairy free, low carb (/veggie inclusion), hipster </em> </p>
+		<div class='col-md-4'>
+			<div>
+				<img class='about-tiramisu' src='./Pictures/tiramisu2.jpg'>
+			</div>
+		</div>
 
-<p> 1 block = Just Tirimisu </p>
+		<div class='col-md-4'>
+			<div>
+				<img class='about-tiramisu' src='./Pictures/tiramisu3.jpg'>
+			</div>
+		</div>
 
-<p> 3 blocks = Ingredients/ Recipe/ Photo </p>
+	</div>
 
-<p> 1 block = Gluten Free Tirimusu </p>
+<br>
 
-<p> 3 blocks = Ingredients/ Recipe/ Photo </p>
+	<div class='row'>
+		<div class='col-md-12, boxed' id="buzz">
+			<h2><b>Tiramisu (V)</b></h2>
+		</div>
+	</div>
 
-<p> 1 block = Veggie Tirimisu </p>
+<br>
 
-<p> 3 blocks = Ingredients/ Recipe/ Photo </p>
+		<div class='row'>
+			<div class='col-md-3'>
+				<div class= 'ingredients'>
+					<h2>Ingredients:</h2>
+					<ul>
+						<li>568ml pot double cream</li>
+						<li>250g tub mascarpone</li>
+						<li>75ml marsala</li>
+						<li>5 tbsp golden caster sugar</li>
+						<li>300ml strong coffee, made with 2 tbsp coffee granules and 300ml boiling water</li>
+						<li>175g pack sponge fingers</li>
+						<li>25g chunked dark chocolate</li>
+						<li>2 tsp cocoa powder</li>
+					</ul>
+				</div>
+			</div>
 
-<p> 1 block = TIPS and TRICKS </p>
+			<div class='col-md-5'>
+				<div class='recipe'>
+					<h2>Recipe:</h2>
+					<ol>
+						<li>Put the cream, mascarpone, Marsala and sugar in a large bowl. Whisk until the cream and mascarpone have completely combined and have the consistency of thickly whipped cream.</li>
+						<li>Get your serving dish ready. Put the coffee into a shallow dish and dip in a few sponge fingers at a time, turning for a few secs until they are nicely soaked, but not soggy. Layer these into your dish until you have used half the biscuits, then spread over half of the creamy mixture. Using the coarse side of the grater, grate over most of the chocolate. Then repeat the layers (you should use up all the coffee), finishing with the creamy layer.</li>
+						<li>Cover and chill for a few hrs or overnight. This can now be kept in the fridge for up to 2 days. To serve, dust with cocoa powder and grate over the remainder of the chocolate.</li>
+					</ol>
+				</div>
+			</div>
 
-<p> 3 blocks = tip 1,2 and 3 </p>
+			<div class='col-md-4'>
+				<div class='about-tiramisu'>
+					<img class='about-tiramisu' src='./Pictures/tiramisu(V).jpg'>
+					<small>An example of the standard Tiramisu recipe, you can make this in any container or glass you'd like!</small>
+				</div>
+			</div>
+		</div>
+
+<br>
+
+	<div class="contact-us">
+		<button class='cookedbutton', id='c4'>Tried This?</button>
+	</div>
+
+<br>
+
+	<div class='row'>
+		<div class='col-md-12, boxed' id="buzz">
+			<h2><b>Tiramisu (Dairy Free)(Vegan)</b></h2>
+		</div>
+	</div>
+
+<br>
+
+	<div class='row'>
+		<div class='col-md-3'>
+			<div class= 'ingredients'>
+				<h2>Ingredients:</h2>
+
+				<h2><small>Vanilla Sheet Cake:</small></h2>
+
+				<ul>
+					<li>1/2 cup Soy Milk</li>
+					<li>1 teaspoon Apple Cider Vinegar</li>
+					<li>4 tablespoons Vegan Butter</li>
+					<li>1/8 teaspoon Salt</li>
+					<li>6 tablespoons Sugar</li>
+					<li>1 teaspoon Vanilla Extract</li>
+					<li>1/2 cup + 2 Tablespoons Pastry Flour</li>
+					<li>1/2 teaspoon Baking Powder</li>
+					<li>1/4 teaspoon Baking Soda</li>
+				</ul>
+
+				<h2><small>Soaking Syrup:</small></h2>
+
+				<ul>
+					<li>3/4 cup Freshly Brewed Coffee, cooled</li>
+					<li>3 tablespoons Sugar</li>
+					<li>3 tablespoons Kahlua</li>
+				</ul>
+
+				<h2><small>Vegan Mascarpone Filling:</small></h2>
+
+				<ul>
+					<li>1 3/4 cup Raw Cashews (no need to soak)</li>
+					<li>1/3 cup Agave Nectar</li>
+					<li>1/3 cup Melted Coconut Oil</li>
+					<li>1/4 teaspoon Salt</li>
+					<li>Seeds of 1 Vanilla Bean Pod</li>
+					<li>3/4 cup Soy Milk</li>
+				</ul>
+
+				<h2><small>For Vanilla Cream:</small></h2>
+
+				<ul>
+					<li>1/4 cup Soy Milk</li>
+					<li>1 tablespoon Melted Coconut Oil</li>
+				</ul>
+
+				<h2><small>For Coffee Cream:</small></h2>
+
+				<ul>
+					<li>1 tablespoon Kahlua</li>
+					<li>1/3 cup freshly brewed Espresso, cooled</li>
+				</ul>
+
+				<h2><small>Extras:</small></h2>
+
+				<ul>
+					<li>Cocoa Powder, for dusting</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class='col-md-5'>
+			<div class='recipe'>
+				<h2>Recipe:</h2>
+
+				<ol>
+					<li><b>Sheet Cake:</b></li>
+					<li> Preheat oven to 175 degrees celsius. Grease and line a 8x6 inch cookie sheet with baking paper. Set aside.</li>
+					<li>Whisk Soy Milk and Apple Cider Vinegar in a bowl set aside for 5 minutes to curdle. </li>
+					<li>Sieve the Pastry Flour, Baking Powder and Baking Soda into a bowl. Set aside.</li>
+					<li>In another bowl, whisk Vegan Butter, Sugar and Salt till light and fluffy, about a minute. Whisk in the Vanilla Extract.</li>
+					<li>Alternate whisking in the Soy Milk mixture and dry ingredients, starting with 1/3 of the dry and ending with the last third of the dry mixture.</li>
+					<li>Spread mixture out onto prepared cookie sheet and bake for 20 minutes, or until cooked through. It's okay if you over bake it slightly, it doesn't make a difference.</li>
+					<li><b>Soaking Syrup:</b></li>
+					<li>Mix Coffee, Kahlua and Sugar together till the sugar has dissolved. Set aside.</li>
+					<li><b>Vegan Mascarpone Filling:</b></li>
+					<li>In a high speed blender, combine Cashews, Agave, Coconut Oil, Salt, Vanilla and Soy Milk. Blend thoroughly until smooth and silky.</li>
+					<li>Divide mixture into half. For Vanilla, use first half of mixture and thoroughly whisk in extra 1/4 cup Soy Milk and 1 tablespoon Coconut Oil. Set aside.</li>
+					<li>For Coffee Cream, blend second half of Mascarpone mixture with Kahlua and Espresso.</li>
+					<li><b>Assembly:</b></li>
+					<li>To assemble, have ready a tiramisu dish or individual ramekins/glasses. Cut a piece of sheet cake to fit the bottom of your ramekin or glass. Dip in Soaking Syrup for just a second or two and place into the bottom of your vessel.</li>
+					<li>Top with a layer of Vanilla Cream and dust with Cocoa Powder. At this point, freeze for 10 minutes.</li>
+					<li>Once out of the freezer, top with a layer of Coffee Cream. Freeze for 10 minutes.</li>
+					<li>Repeat process once more - soaked cake, vanilla cream and coffee cream - freezing cream layers for 10 minutes before continuing.</li>
+					<li>Once complete, dust the tops of you Tiramisu with cocoa powder and leave in the fridge for at least 4-6 hours to firm up before eating.</li>
+				</ol>
+
+			</div>
+		</div>
+
+		<div class='col-md-4'>
+			<div class='about-tiramisu'>
+				<br>
+				<br>
+				<br>
+				<br>
+				<img class='about-tiramisu' src='./Pictures/tiramisu(Vegan).jpg'>
+				<small>An example of the vegan Tiramisu recipe, you can make this in any container or glass you'd like!</small>
+			</div>
+		</div>
+	</div>
+
+<br>
+
+	<div class="contact-us">
+		<button class='cookedbutton'>Tried This?</button>
+	</div>
+
+<br>
+
+<div class='row'>
+	<div class='col-md-12, boxed' id="buzz">
+		<h2><b>Tiramisu (Gluten Free)</b></h2>
+	</div>
+</div>
+
+<br>
+
+	<div class='row'>
+		<div class='col-md-5'>
+			<div class= 'ingredients'>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h2>Gluten Free Swap:</h2>
+				<p>Simply swap out gluten free lady fingers or sponge fingers for the regular ones used in the vegetarian recipe above! Follow those steps and you'll have a gluten free and delicous dessert.</p>
+			</div>
+		</div>
+
+		<div class='col-md-7'>
+			<div class='about-tiramisu'>
+				<img class='about-tiramisu' src='./Pictures/tiramisu(GF).jpg'>
+			</div>
+		</div>
+	</div>
+
+<br>
+
+	<div class="contact-us">
+		<button class='cookedbutton'>Tried This?</button>
+	</div>
+
+<br>
+
+<div class="boxed">
+
+	<div class='row'>
+		<div class='col-md-12' id="buzz">
+			<h2><b>If you liked this page or want to find out more, follow us on:</b></h2>
+		</div>
+	</div>
+
+<br>
+
+	<div class='row' id='social-buttons'>
+		<div class= 'col-md-4'>
+			<button class='btn-twitter'>Twitter</button>
+		</div>
+		<div class= 'col-md-4'>
+			<button class='btn-facebook'>Facebook</button>
+		</div>
+		<div class= 'col-md-4'>
+			<button class='btn-pinterest'>Pinterest</button>
+		</div>
+	</div>
+
+<br>
+
+</div>
 
 </body>
 

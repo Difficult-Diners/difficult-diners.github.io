@@ -1,0 +1,215 @@
+body{
+	background-color: #D3D3D3;
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+	cursor: url(./Pictures/pizza.png), auto;
+}
+
+* {
+	font-family: Verdana, Arial, Serif;
+	}
+
+.we{
+	text-align: center;
+	color: #808080;
+	width: 60%;
+}
+
+h1
+	{
+	font-family: Arial, sans-serif;
+	text-align: center;
+	}
+
+h2{
+	text-align: center;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: darkseagreen;
+	color: darkslategrey;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: verdana;
+}
+
+#myBtn:hover {
+	background-color: thistle;
+}
+
+#mymodal {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: darkseagreen;
+	color: darkslategrey;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: verdana;
+}
+
+.about-pic{
+	height: 100%;
+	width: 75%;
+	margin: 40px;
+}
+
+.blurb
+	{
+		font-family: Arial, sans-serif;
+		width: 100%;
+		border: 2px bold black;
+		font-size: 36px;
+		padding: 5px;
+	}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color: #111;
+}
+
+.navbar .active {
+	background-color: #94cfcd;
+}
+
+.navbar ul li.float-right {
+	float: right;
+}
+
+@media screen (max-width: 600px) {
+	.navbar ul li.float-right, .navbar li {float: none;}
+}
+
+.navbar li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.boxed{
+	background-color: #94cfcd;
+	padding: 10px;
+	color: #808080;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px;
+}
+
+.mission{
+	width: 60%;
+}
+
+.row{
+	margin: 10px;
+}
+
+.contact-us
+{
+	margin-left: 10px;
+}
+
+.btn-facebook{
+	background-color: #3b5998;
+	color: white;
+	border-radius: 20%
+}
+
+.btn-twitter{
+	background-color: #4099ff;
+	border-radius: 20%
+}
+
+.btn-pinterest{
+	background-color: #c8232c;
+	color: white;
+	border-radius: 20%
+}
+
+.follow-us{
+	colour: #808080;
+	font-size: 26px;
+	text-align: center;
+}
+
+.about-italy{
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+}
+
+.about-tiramisu{
+	height: 100%;
+	width: 100%;
+	margin: 0px
+}
+
+.ingredients{
+text-align: left;
+}
+
+.recipe{
+text-align: left;
+}
+<<<<<<< HEAD
+
+a:link    {color:purple; background-color:transparent; text-decoration:none}
+a:visited {color:#009999; background-color:transparent; text-decoration:none}
+a:hover  {color:#32CD32; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+.cookedbutton{
+	position: center;
+	left: 500px;
+	bottom: 10px;
+		right: 10px;
+	border: none;
+	background color: darkseagreen;
+	color: darkslategrey;
+	padding: 10px;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+.cookedbutton:hover {background-color:#00CC66; color:black;}
+.cookedbutton:focus {background-color: #00CC66; color: black;}
+
+.about-arancini:{
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+}
+=======
+>>>>>>> origin/master

@@ -12,27 +12,25 @@
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
 
-	<script src="./script.js"></script>
+	<script src="./script-home.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="./stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="./stylesheet-home.css">
 
 </head>
 
 <body>
+
+<embed id="audiofunction" src="./Audio/italiandinner.mp3" autostart="true" loop="true" width="2" height="0">
+</embed>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 	<div class="navbar">
 		<ul>
-			<li><a>HOME</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropbtn">FOOD</a>
-				<div class="dropdown-content">
-					<a href="#">STARTERS</a>
-					<a href="#">MAINS</a>
-					<a href="#">DESSERTS</a>
-				</div>
-			</li>
-			<li><a>TRENDS</a></li>
-			<li class="float-right"><a>ABOUT</a></li>
-			<li class="float-right"><a>CONTACT</a></li>
+			<li><a href="./index.html">HOME</a></li>
+			<li class="float-right"><a href="./desserts-main.html">DESSERTS</a></li>
+			<li class="float-right"><a href="./main_courses.html">MAINS</a></li>
+			<li class="float-right"><a href="./starters.html">STARTERS</a></li>
 		</ul>
 	</div>
 
@@ -42,21 +40,6 @@
 		</div>
 	</div>
 
-	<p> Taking the <b>hassle</b> out of dinner </p>
-
-	<ul>
-		<li>Dietary Requirements</li>
-		<li>Hipster</li>
-	</ul>
-
-	<div class="blurb">
-		<p> Dietary requirements, whether lifestyle choice or a body revolt, are part of everyday life. Dairy-free, carb free, fat free, gluten free, meat or animal product free or just a really simple solution? This website offers comprehensive swap out options so you can cater for even the most difficult diner! </p>
-	</div>
-
-	<div class='row'>
-      <div id="buzz">
-        <h2><small>Who are we?</small><br />About Us</h2>
-
 	<div class='row, boxed' id= 'we'>
 		<div class='col-md-12'>
 			<p>We believe that all dinners are made equal.</p>
@@ -64,9 +47,10 @@
 		</div>
 	</div>
 
-			<div class='blurb, boxed'>
-				<p>	Dietary requirements, whether lifestyle choice or a body revolt, are part of everyday life. Dairy-free, carb free, fat free, gluten free, meat or animal product free or just a really simple solution? This website offers comprehensive swap out options so you can cater for even the most difficult diner! </p>
-			</div>
+	<div class="blurb, boxed">
+		<p> Dietary requirements, whether lifestyle choice or a body revolt, are part of everyday life. Dairy-free, carb free, fat free, gluten free, meat or animal product free or just a really simple solution? This website offers comprehensive swap out options so you can cater for even the most difficult diner! </p>
+	</div>
+
 
 			<div id="mission">
 			<div class='row'>
@@ -78,97 +62,118 @@
 			</div>
 
 			<div class='row'>
-
 				<div class='col-md-4'>
 					<div>
-						<img class='italian-why, about-italy' src=''>
-						<p>We decided to try italian month as it is home to some fantastic flavours and a great starting place for us to show how food for different diets doesnt have to be boring or lack taste!</p>
+						<img class='italian-why, about-italy' src='./Pictures/pizza.jpg'>
+						<p>This month we are celebrating Italy! As it is home to some fantastic flavours and a great starting place for us to show how food for different diets doesn't have to be boring or lack taste!</p>
 						<small>This is Italina Month, home of pizza, pasta and gelato.</small>
 					</div>
 				</div>
 
-
 				<div class='col-md-4'>
 					<div>
-						<img class='italian-stay, about-italy' src=''>
-						<p>Italy is a brillinatly varried country, with everything from mountain towns, cosmipolitan cities and beaches. If you love this months theme and want to visit here are some of our reccomendations for places to go!</p>
+						<img class='italian-stay, about-italy' src='./Pictures/visit-in-italy.jpg'>
+						<p>Italy is a brilliantly varried country, with everything from mountain towns, cosmipolitan cities and beaches. If you love this months' theme and want to visit Italy, <a href="http://www.touropia.com/best-places-to-visit-in-italy/">here are some of our recommendations of where to go!</a></p>
 						<small>Basing a holiday itinerary on food? We say go for it!</small>
 					</div>
 				</div>
 
 				<div class='col-md-4'>
 					<div>
-						<img class='italian-blogs, about-italy' src=''>
-						<p>need to put blog links?</p>
+						<img class='italian-blogs, about-italy' src='./Pictures/italy.png'>
+						<ul>
+							<li><a href="http://bleedingespresso.com/"> Bleeding Expresso</a> - a hilarious take on italian culture and food</li>
+							<li><a href="http://www.katebailward.com/drivinglikeamaniac/">Driving like a Maniac</a> - a Bristolian take on life at the bottom of the heal</li>
+							<li><a href="http://helpilivewithmyitalianmotherinlaw.com/">Help I live with my Mother in Law</a> - it's all in the title, a Canadians guide to living with Mama</li>
 						<small>Don't just take our word for it, check out some of these great italian blogs.</small>
 					</div>
 				</div>
 
 			</div>
 
-			<div class='row'>
-      <div class='col-md-12' id="buzz">
-        <h2><small>Who are we?</small>
-					<br>
-				<h2>About Us</h2>
+		<div class='boxed'>
 
-      </div>
+				<div class='row'>
+		      <div class='col-md-12' id="buzz">
+		        <h2><small>Who are we?</small>
+							<br>
+						<h2>About Us</h2>
+		      </div>
+		    </div>
+
+		      <div class='row'>
+						<div class='col-md-4'>
+							<div>
+		            <img class='about-pic' id='rebecca-pic' src='./Pictures/rebecca-pic1.jpg'>
+		            <p>Rebecca is a studying a masters in 'food'. She takes food seriously and makes sure the recipes are not only amazingly tasty but also nutritous as part of a balanced diet.</p>
+		            <small>Rebecca Cann, BA/BSC in Food and Founder</small>
+		          </div>
+		        </div>
+
+		        <div class='col-md-4'>
+		          <div>
+		            <img class='about-pic' id='aisha-pic' src='./Pictures/aisha-pic1.jpg'>
+		            <p>Aisha has dealt with food intolerance and restrictive diets for years with a family history of wheat, gluten, dairy and fructose intolerance. She want to make the stigma of restrictive diets a thing of the past.</p>
+		            <small>Aisha Sobey, Long time dairy-free Vegetarian and Founder</small>
+		          </div>
+		        </div>
+
+		        <div class='col-md-4'>
+		          <div>
+		            <img class='about-pic' id='alice-pic' src='./Pictures/alice-pic1.jpg'>
+		            <p>Alice has been vegetarian for years and undertands the struggle of being a student, with a student budget and still tryng to eat well. She is passionate about flexibility and ease of food.</p>
+		            <small>Alice Sparks, Student, Vegetarian and Founder</small>
+		          </div>
+		        </div>
+		      </div>
+				</div>
+
+					<br>
+
+   <div class="col-md-12 sidebar">
+    	<h1> Sign Up to Our Newsletter!</h1>
+    	<div class="col-md-12 form">
+    	<form>
+    		<div class"form-group">
+    		<label for="email">Email Address:</label>
+    		<input type="email" class="form-control" id="email">
+    		</div>
+    		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    		Submit
+    		</button>
+
+    		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    		</div>
+    	</form>
     </div>
 
-      <div class='row'>
-
-  			<div class='col-md-4'>
-					<div>
-            <img class='about-pic' id='rebecca-pic' src='./Pictures/rebecca-pic1.jpg'>
-            <p>Rebecca is a studying a masters in 'food'. She takes food seriously and makes sure the recipes are not only amazingly tasty but also nutritous as part of a balanced diet.</p>
-            <small>Rebecca Cann, BA/BSC in Food and Founder</small>
-          </div>
-        </div>
-
-
-        <div class='col-md-4'>
-          <div>
-            <img class='about-pic' id='aisha-pic' src='./Pictures/aisha-pic1.jpg'>
-            <p>Aisha has dealt with food intolerance and restrictive diets for years with a family history of wheat, gluten, dairy and fructose intolerance. She want to make the stigma of restrictive diets a thing of the past.</p>
-            <small>Aisha Sobey, Long time dairy-free Vegetarian and Founder</small>
-          </div>
-        </div>
-
-        <div class='col-md-4'>
-          <div>
-            <img class='about-pic' id='alice-pic' src='./Pictures/alice-pic1.jpg'>
-            <p>Alice has been vegetarian for years and undertands the struggle of being a student, with a student budget and still tryng to eat well. She is passionate about flexibility and ease of food.</p>
-            <small>Alice Sparks, Student Vegetarian and Founder</small>
-          </div>
-        </div>
-
-      </div>
-
-			<br>
-			<div class='row, follow-us'>
-				<div class= 'col-md-12'>
-					<p> Keep in contact, follow us for updates!</p>
-				</div>
-			</div>
-
-			<div class='row' id='social-buttons'>
-				<div class= 'col-md-4'>
-        	<button class='btn-twitter'>Twitter</button>
-				</div>
-				<div class= 'col-md-4'>
-        	<button class='btn-facebook'>Facebook</button>
-				</div>
-				<div class= 'col-md-4'>
-        	<button class='btn-pinterest'>Pinterest</button>
-      	</div>
-			</div>
 <br>
 <br>
 <br>
+					<div class='row'>
+						<div class='follow-us'>
+						<div class= 'col-md-12'>
+							<p> Keep in contact, follow us for updates!</p>
+						</div>
+						</div>
+					</div>
+
+					<div class='row' id='social-buttons'>
+						<div class= 'col-md-4'>
+		        	<button class='btn-twitter'>Twitter</button>
+						</div>
+						<div class= 'col-md-4'>
+		        	<button class='btn-facebook'>Facebook</button>
+						</div>
+						<div class= 'col-md-4'>
+		        	<button class='btn-pinterest'>Pinterest</button>
+		      	</div>
+					</div>
+
 
 		<div class="contact-us">
-			<input></input>
-			<button class=cookedbutton type="button">Tried this?</button>
+
+	<button class='cookedbutton'>Tried This?</button>
 		</div>
 
 	</body>
