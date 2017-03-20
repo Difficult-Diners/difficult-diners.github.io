@@ -38,14 +38,20 @@ var pausebutton = $("pausebutton");
 				$(this).attr('src', './Pictures/aisha-pic1.jpg');
 			});
 
-
-
 			$('#alice-pic').mouseover(function() {
 				$(this).attr('src', './Pictures/alice-pic2.jpg');
 			});
 
 			$("#alice-pic").mouseout(function(){
 				$(this).attr('src', './Pictures/alice-pic1.jpg');
+			});
+
+			$('#rebecca-pic').mouseover(function() {
+				$(this).attr('src', './Pictures/rebecca-pic2.jpg');
+			});
+
+			$("#alice-pic").mouseout(function(){
+				$(this).attr('src', './Pictures/rebecca-pic1.jpg');
 			});
 
 });
