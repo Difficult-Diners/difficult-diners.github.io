@@ -237,3 +237,9 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 
 .cookedbutton:hover {background-color:#00CC66; color:black;}
 .cookedbutton:focus {background-color: #00CC66; color: black;}
+
+.about-arancini:{
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}

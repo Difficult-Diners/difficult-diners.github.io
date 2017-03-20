@@ -5,16 +5,18 @@ $(document).ready(function(){
 
 		var button = $('.cookedbutton');
 
-		 button.on('click', function(){
+			button.on('click', function(){
 
-			if (button.text() == "Tried This?") {
-				button.html("Cooked!");
-				button.css('background-color', '#FF3399');
-			}
-			else {
-				button.html("Tried This?");
-				button.css('background-color', 'darkseagreen');
-			}
+			var thisButton = $(this);
+
+  				if (thisButton.text() == "Tried This?") {
+    				thisButton.html("Cooked!");
+    				thisButton.css('background-color', '#FF3399');
+  	}
+		else {
+    	thisButton.html("Tried This?");
+    	thisButton.css('background-color', 'darkseagreen');
+  	}
 		});
 
 var audio=$("audiofunction");
