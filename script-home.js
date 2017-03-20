@@ -1,18 +1,19 @@
 
 //put javescript in this file//
 
-	$(document).ready(function(){
+$(document).ready(function(){
 
-		 var button = $("cookedbutton");
+		var button = $('.cookedbutton');
 
 		 button.on('click', function(){
 
-			if (button.text() == "Tried this?") {
+			if (button.text() == "Tried This?") {
 				button.html("Cooked!");
-				alert("Well Done!");
+				button.css('background-color', '#FF3399');
 			}
 			else {
-				button.html("Tried this?");
+				button.html("Tried This?");
+				button.css('background-color', 'darkseagreen');
 			}
 		});
 
