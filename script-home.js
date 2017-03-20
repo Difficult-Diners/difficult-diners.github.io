@@ -18,17 +18,16 @@ $(document).ready(function(){
 		});
 
 var audio=$("audiofunction");
-	function play() {
-		audio.play();
-	}
-	function pause() {
-		audio.pause();
-	}
+	
+	button.on('click', function(){
 
-var pausebutton = $("pausebutton");
-	pausebutton.on("click", function(){
-		pause();
-	})
+		if (button.text() == "Pause") {
+			buttin.html("Paused!");
+		}
+		else {
+			button.html("Paused!");
+		}
+	});
 
 			$('#aisha-pic').mouseover(function() {
 				$(this).attr('src', './Pictures/aisha-pic2.jpg');
